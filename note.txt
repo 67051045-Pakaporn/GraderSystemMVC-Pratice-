@@ -1,0 +1,6 @@
+MVC Overview
+- เมื่อ data เข้าไป process ใน Model จะได้ processed data ออกมา
+- Controller จะเป็นตัวที่คอยควบคุมการรับ-ส่งข้อมูล จาก user ไปให้กับ Model
+- user จะเข้าถึง service ของระบบได้ผ่าน View ซึ่งเมื่อ View รับ request จาก user มาแล้ว 
+Controller จะนำ request ไปให้ Model และ Model จะส่ง processed data กลับมา 
+โดยผ่าน Controller เช่นเดิม แล้ว user จะได้รับ processed data ผ่าน View
